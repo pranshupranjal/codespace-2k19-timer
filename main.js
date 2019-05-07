@@ -11,7 +11,7 @@ var Countdown = {
         
         // Variables deciding start and end time
         var startTime = Date.now();
-        var endTime = Date.now() + 24;;
+        var endTime = Date.now() + 86400000;
 
         var diff = (endTime - startTime) / 1000;
         // Init countdown values
